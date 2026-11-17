@@ -19,14 +19,16 @@
 |---|---|---|---|---|
 | قبل اليوم الأول | `files/prework_baseline.html` | مهمة متكررة من عمل المشارك | لا حل: ورقة شخصية | كما يعمل المشارك اليوم |
 | 1.1 | `D1_1_text_faults.html` | `content_pack.html`، `fault_log.csv` | `solutions/fault_log_reference.csv`، الصفوف 1 إلى 5 | دون، والمساعد في المهمة الإضافية فقط |
-| 1.2 | `D1_2_media_faults.html` | `start/fault_log_text_done.csv`، `asset_register.html` | `solutions/fault_log_reference.csv`، الصفوف 6 إلى 8 | دون |
+| 1.2 | `D1_2_media_faults.html` | `start/fault_log_text_done.csv`، `asset_register.html` | `solutions/fault_log_reference.csv`، الصفوف 6 إلى 8 | دون في المرور الأول، ثم يجوز المساعد في صياغة الإصلاح دون سجل الأصول |
 | 1.3 | `D1_3_workflow_card.html` | `brief_launch.html`، `workflow_card.html` | `solutions/workflow_card_reference.csv` | كامل في الصياغة |
 | 1.4 | `D1_4_logged_release.html` | `start/release_ar_v1.html`، `start/content_log_drafting_done.csv` | `solutions/content_log_reference.csv`، و`files/release_ar_final.html` | دون في المرور الأول، ثم مراجعة ثانية |
 | 2.1 | `D2_1_english_release.html` | `release_ar_final.html`، `fact_sheet.csv` | `solutions/fact_sheet_reference.csv`، `solutions/english_reference.html` | كامل في الصياغة |
 | 2.2 | `D2_2_parity_check.html` | `start/english_drafts.html`، `parity_check.csv` | `solutions/parity_check_reference.csv`، `solutions/english_reference.html` | معلِّم |
 | 2.3 | `D2_3_claims_check.html` | `claims_pack.html`، `factcheck_log.csv` | `solutions/factcheck_log_reference.csv`، الصفوف العشرة الأولى | دون |
-| 2.4 | `D2_4_image_provenance.html` | `start/factcheck_log_claims_done.csv`، `image_cards.html` | `solutions/factcheck_log_reference.csv`، صفوف الصور والتوقيع | دون |
+| 2.4 | `D2_4_image_provenance.html` | `start/factcheck_log_claims_done.csv`، `image_cards.html` | `solutions/factcheck_log_reference.csv`، صفوف الصور والتوقيع | دون في المرور الأول، ثم فاحص ثانٍ اختياري دون سجل الموافقات |
 | المشروع الختامي | `files/redesign_card.html` | خط الأساس وسجلّا التنفيذين | لا حل: بطاقة شخصية | كما في بطاقة مسار العمل |
+
+المختبرات الأربعة في وصف المقرر يؤدّى كل منها في مختبرين: مراجعة حزمة محتوى فيها أخطاء في 1.1 و1.2، وإصدار مسجّل في 1.3 و1.4، ونسختان عربية وإنجليزية متوازيتان في 2.1 و2.2، والتحقق من الحقائق ووسم الصور في 2.3 و2.4. وأوضاع الذكاء الاصطناعي في الجدول تتبع سياسة المقرر: دون في المحاولة الأولى للتحقق، ومعلِّم في فحص التطابق، وكامل في الصياغة.
 
 مفتاح كل ما زُرع في الملفات: `solutions/answer_key.md`.
 
