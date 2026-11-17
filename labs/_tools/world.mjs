@@ -1,12 +1,12 @@
-/* The world of the case study: every fact of the Sawaed launch is written once, here.
+/* The world of the case study: every fact of the Adud launch is written once, here.
    The documents, the planted faults, the key and the checker all read this module. */
 
 export const fmt = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 export const pct1 = (a, b) => (Math.round((a / b) * 1000) / 10).toFixed(1);
 
-export const ORG = { ar: 'هيئة سواعد الوطنية للعمل التطوعي', en: 'Sawaed National Volunteering Authority' };
-export const SERVICE = { ar: '«جِوار»', en: 'Jiwar' };
-export const SITE = 'jiwar.sawaed.example';
+export const ORG = { ar: 'هيئة عَضُد الوطنية للعمل التطوعي', en: 'Adud National Volunteering Authority' };
+export const SERVICE = { ar: '«مُؤنِس»', en: 'Muanis' };
+export const SITE = 'muanis.adud.example';
 
 export const PEOPLE = {
   director: { ar: 'جويرية الجريّد', en: 'Juwairiyah Al-Jurayyid', role: 'مديرة إدارة الاتصال، صاحبة الاعتماد' },
@@ -57,8 +57,8 @@ export const READINESS = { year: 2026, adults: 6400, willing: 1536 }; // 24.0% s
 
 export const QUOTES = [
   { id: 'Q1', who: 'ceo', approved: '2 ديسمبر 2026',
-    ar: 'جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.',
-    en: 'Jiwar turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done.' },
+    ar: 'مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.',
+    en: 'Muanis turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done.' },
   { id: 'Q2', who: 'volunteer', approved: '3 ديسمبر 2026',
     ar: 'أعطي ساعتين في الأسبوع، وأعرف قبل أن أخرج من بيتي من سأساعد وبماذا.',
     en: 'I give two hours a week, and before I leave home I know whom I will help and with what.' }
@@ -93,7 +93,7 @@ export const RULES = [
 /* ---- the canonical texts ---- */
 const P = PILOT, L = LAUNCH;
 export const RELEASE_AR = {
-  title: `هيئة سواعد تطلق خدمة ${SERVICE.ar} في ${L.cities} مدينة يوم ${L.date.ar}`,
+  title: `هيئة عَضُد تطلق خدمة ${SERVICE.ar} في ${L.cities} مدينة يوم ${L.date.ar}`,
   paras: [
     `تطلق ${ORG.ar} خدمة ${SERVICE.ar} في ${L.cities} مدينة يوم ${L.date.ar}، بعد مرحلة تجريبية استمرت ستة أشهر في الرياض وجدة وأبها. تربط الخدمة المتطوعين بطلبات كبار السن ممن بلغوا ${L.ageBeneficiary} عامًا فأكثر والأشخاص ذوي الإعاقة في أحيائهم.`,
     `استقبلت المرحلة التجريبية، من ${P.from.ar} إلى ${P.to.ar}، ${fmt(P.requests)} طلبًا أُنجز منها ${fmt(P.completed)} طلبًا، أي ${P.completionPct}%. وسجّل فيها ${fmt(P.registered)} متطوعًا، نشط منهم ${fmt(P.active)}، وخدموا ${fmt(P.beneficiaries)} مستفيدين. وبلغ وسيط المدة من تقديم الطلب إلى إسناده إلى متطوع ${P.medianHours} ساعة.`,
@@ -106,7 +106,7 @@ export const RELEASE_AR = {
 };
 
 export const RELEASE_EN = {
-  title: `Sawaed launches ${SERVICE.en} in ${L.cities} cities on ${L.date.en}`,
+  title: `Adud launches ${SERVICE.en} in ${L.cities} cities on ${L.date.en}`,
   paras: [
     `The ${ORG.en} will launch ${SERVICE.en} in ${L.cities} cities on ${L.date.en}, after a six-month pilot in Riyadh, Jeddah and Abha. The service matches volunteers with requests from people aged ${L.ageBeneficiary} or more and people with disabilities in their own neighbourhoods.`,
     `Between ${P.from.en} and ${P.to.en} the pilot received ${fmt(P.requests)} requests, of which ${fmt(P.completed)} were completed (${P.completionPct}%). It registered ${fmt(P.registered)} volunteers, ${fmt(P.active)} of them active, who served ${fmt(P.beneficiaries)} beneficiaries. The median time from a request to its assignment to a volunteer was ${P.medianHours} hours.`,
@@ -149,7 +149,7 @@ export const FACTS = [
   { id: 'ح16', name: 'سن المستفيد', ar: ['60 عامًا'], en: ['aged 60'], source: 'موجز الإطلاق' },
   { id: 'ح17', name: 'اسم الرئيس التنفيذي', ar: [PEOPLE.ceo.ar], en: [PEOPLE.ceo.en], source: 'المسرد' },
   { id: 'ح18', name: 'اسم المتطوع', ar: [PEOPLE.volunteer.ar], en: [PEOPLE.volunteer.en], source: 'المسرد' },
-  { id: 'ح19', name: 'اسم الخدمة', ar: ['جِوار'], en: ['Jiwar'], source: 'المسرد' },
+  { id: 'ح19', name: 'اسم الخدمة', ar: ['مُؤنِس'], en: ['Muanis'], source: 'المسرد' },
   { id: 'ح20', name: 'اسم الهيئة', ar: [ORG.ar], en: [ORG.en], source: 'المسرد' },
   { id: 'ح21', name: 'اقتباس الرئيس التنفيذي', ar: [QUOTES[0].ar], en: [QUOTES[0].en], source: 'سجل الاقتباسات، Q1' },
   { id: 'ح22', name: 'اقتباس المتطوع', ar: [QUOTES[1].ar], en: [QUOTES[1].en], source: 'سجل الاقتباسات، Q2' }
@@ -167,7 +167,7 @@ export const EN_MISMATCHES = [
   { id: 'ف2', item: 'release', fact: 'ح06', kind: 'رقم', from: '4,212 were completed', to: '4,221 were completed', note: 'رقمان تبادلا موضعيهما' },
   { id: 'ف3', item: 'release', fact: 'ح11', kind: 'مصطلح', from: 'The median time', to: 'The average time', note: 'الوسيط صار متوسطًا: حقيقة أخرى' },
   { id: 'ف4', item: 'post1', fact: 'ح01', kind: 'تاريخ', from: 'on 10 January 2027', to: 'on 1 October 2027', note: 'قراءة 10/1 بترتيب الشهر ثم اليوم' },
-  { id: 'ف5', item: 'post3', fact: 'ح19', kind: 'اسم', from: `Volunteering with ${SERVICE.en}`, to: 'Volunteering with Good Neighbour', note: 'اسم الخدمة تُرجم والمسرد يمنع ترجمته' },
+  { id: 'ف5', item: 'post3', fact: 'ح19', kind: 'اسم', from: `Volunteering with ${SERVICE.en}`, to: 'Volunteering with Good Companion', note: 'اسم الخدمة تُرجم والمسرد يمنع ترجمته' },
   { id: 'ف6', item: 'post3', fact: 'ح22', kind: 'اقتباس', from: 'two hours a week', to: 'two hours a day', note: 'الاقتباس تغيّر: الأسبوع صار يومًا' }
 ];
 export const EN_VOICE = [
@@ -196,7 +196,7 @@ export const FAULTS = [
     text: 'من المرحلة التجريبية في أبها: متطوع يوصل مشتريات أحد المستفيدين.',
     evidence: 'سجل الأصول: الصورة ولّدها المصمم بأداة التوليد، ولا وسم عليها، والتعليق يقدّمها مشهدًا من أبها', fix: 'يُضاف الوسم ويُكتب تعليق صادق: رسم توضيحي', owner: 'مسؤولة الحقوق والمحرر' },
   { id: 'خ7', item: 'الصورة 2', kind: 'صورة منسوبة إلى غير مصدرها', rule: 'ق6', lab: '1.2',
-    text: 'تصوير: تيم الدغمي، هيئة سواعد.',
+    text: 'تصوير: تيم الدغمي، هيئة عَضُد.',
     evidence: 'سجل الأصول: الصورة من وكالة «عدسة»، التُقطت خارج المملكة في مارس 2023، وترخيصها تحريري لا يشمل الحملات', fix: 'تُستبدل بصورة من مكتبة الهيئة، أو يُشترى ترخيص يغطي الحملة وتُنسب إلى الوكالة', owner: 'مسؤولة الحقوق' },
   { id: 'خ8', item: 'المقطع الصوتي', kind: 'صوت شخص حقيقي مولّد بلا موافقة ولا وسم', rule: 'ق5', lab: '1.2',
     text: 'بصوت الرئيس التنفيذي',
@@ -207,7 +207,7 @@ export const FAULTS = [
 export const V1_ISSUES = [
   { id: 'م1', kind: 'رقم', from: `${fmt(PILOT.registered)} متطوعًا`, to: '3,500 متطوعًا', source: 'الجدول 1: 3,150' },
   { id: 'م2', kind: 'رقم', from: `${PILOT.completionPct}%`, to: '87.6%', source: 'الجدول 1: 4,212 من 4,860 تساوي 86.7%' },
-  { id: 'م3', kind: 'اقتباس', from: QUOTES[0].ar, to: 'جِوار يحوّل مساعدة الجار إلى خدمة منظمة ومتكاملة، من الطلب الواضح إلى المتطوع الموثَّق.', source: 'سجل الاقتباسات، Q1: النص المعتمد غير هذا' },
+  { id: 'م3', kind: 'اقتباس', from: QUOTES[0].ar, to: 'مُؤنِس يحوّل مساعدة الجار إلى خدمة منظمة ومتكاملة، من الطلب الواضح إلى المتطوع الموثَّق.', source: 'سجل الاقتباسات، Q1: النص المعتمد غير هذا' },
   { id: 'م4', kind: 'أسلوب', from: 'بعد مرحلة تجريبية', to: 'وهي الأولى من نوعها في المنطقة، بعد مرحلة تجريبية', source: 'دليل الأسلوب: عبارة ممنوعة، ولا مصدر لها' },
   { id: 'م5', kind: 'وسم', from: RELEASE_AR.caption, to: `متطوع يوصل مشتريات أحد المستفيدين.`, source: 'سجل الأصول: الصورة مولّدة، والوسم ناقص' }
 ];
@@ -231,7 +231,7 @@ export const CLAIMS = [
     primary: 'سجل الاقتباسات المعتمدة، Q2', verdict: 'يُنشر', finding: 'مطابق حرفيًا، والموافقة مسجّلة' },
   { id: 'د08', type: 'إحصائية', text: 'يتطوع 24% من البالغين في مدن الإطلاق مرة واحدة في السنة على الأقل.', cited: 'صحيفة المدار',
     primary: 'مسح الاستعداد للتطوع 2026، الهيئة', verdict: 'يُصحَّح', finding: `المسح: ${fmt(READINESS.willing)} من ${fmt(READINESS.adults)} بالغًا، أي 24.0%، قالوا إنهم مستعدون للتطوع. الخبر نقلها «يتطوعون»`, fix: 'قال 24% من البالغين الذين شملهم مسح الاستعداد للتطوع 2026 إنهم مستعدون للتطوع.' },
-  { id: 'د09', type: 'اقتباس', text: 'قال أحد المستفيدين: «جِوار أعاد إليّ استقلالي.»', cited: 'غير مذكور',
+  { id: 'د09', type: 'اقتباس', text: 'قال أحد المستفيدين: «مُؤنِس أعاد إليّ استقلالي.»', cited: 'غير مذكور',
     primary: 'لا مصدر', verdict: 'يُحذف', finding: 'لا صف له في سجل الاقتباسات، ولا اسم لصاحبه ولا موافقة' },
   { id: 'د10', type: 'إحصائية', text: 'انخفض وسيط مدة الإسناد من 41 ساعة في الشهر الأول إلى 26 ساعة في الشهر الأخير.', cited: 'تقرير المرحلة التجريبية',
     primary: 'تقرير المرحلة التجريبية، الجدول 3', verdict: 'يُصحَّح', finding: 'الشهر الأخير 22 ساعة. و26 ساعة وسيط المرحلة كلها', fix: 'انخفض وسيط مدة الإسناد من 41 ساعة في الشهر الأول إلى 22 ساعة في الشهر الأخير.' }
@@ -285,11 +285,11 @@ export const IMAGES = [
 
 export const RECORDS = [
   { id: 'CR-009', type: 'موافقة', who: PEOPLE.volunteer2.ar, scope: 'التقرير الداخلي للمرحلة التجريبية فقط', date: '20 يونيو 2026' },
-  { id: 'CR-014', type: 'موافقة', who: PEOPLE.volunteer.ar, scope: 'مواد الحملة العامة لخدمة جِوار: صور واقتباس', date: '9 نوفمبر 2026' },
-  { id: 'CR-015', type: 'موافقة', who: 'مستفيد من أبها، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة جِوار: صور', date: '9 نوفمبر 2026' },
-  { id: 'CR-016', type: 'موافقة', who: 'متطوعة من الرياض، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة جِوار: صور', date: '2 نوفمبر 2026' },
-  { id: 'CR-018', type: 'موافقة', who: 'متطوع من جدة، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة جِوار: صور', date: '15 أكتوبر 2026' },
-  { id: 'CR-019', type: 'موافقة', who: 'مستفيد من جدة، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة جِوار: صور', date: '15 أكتوبر 2026' },
+  { id: 'CR-014', type: 'موافقة', who: PEOPLE.volunteer.ar, scope: 'مواد الحملة العامة لخدمة مُؤنِس: صور واقتباس', date: '9 نوفمبر 2026' },
+  { id: 'CR-015', type: 'موافقة', who: 'مستفيد من أبها، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة مُؤنِس: صور', date: '9 نوفمبر 2026' },
+  { id: 'CR-016', type: 'موافقة', who: 'متطوعة من الرياض، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة مُؤنِس: صور', date: '2 نوفمبر 2026' },
+  { id: 'CR-018', type: 'موافقة', who: 'متطوع من جدة، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة مُؤنِس: صور', date: '15 أكتوبر 2026' },
+  { id: 'CR-019', type: 'موافقة', who: 'مستفيد من جدة، الاسم محفوظ في السجل', scope: 'مواد الحملة العامة لخدمة مُؤنِس: صور', date: '15 أكتوبر 2026' },
   { id: 'LR-027', type: 'ترخيص', who: 'وكالة «عدسة» للصور، الصورة AD-88213', scope: 'استخدام تحريري فقط، لا يشمل الحملات، وتُنسب إلى الوكالة', date: '5 أكتوبر 2026' },
   { id: 'LR-031', type: 'ترخيص', who: 'أداة التوليد المعتمدة', scope: 'مخرجات الأداة يجوز استخدامها في الاتصال العام للهيئة', date: '1 سبتمبر 2026' }
 ];

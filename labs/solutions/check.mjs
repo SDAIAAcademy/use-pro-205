@@ -89,7 +89,7 @@ LABS['1.1'] = () => {
   const sq = strayQuotes(all);
   equal(sq.length, 2, 'quotations of the pack that are not in the approved record');
   ok(sq.some((q) => q.startsWith(KEY.quotes[0].ar) && q.length > KEY.quotes[0].ar.length), 'one stray quotation is the chief executive\'s, lengthened');
-  ok(sq.some((q) => !q.includes('جِوار')), 'one stray quotation has no record at all');
+  ok(sq.some((q) => !q.includes('مُؤنِس')), 'one stray quotation has no record at all');
   const echoed = KEY.brief_notes.filter((n) => all.includes(n));
   equal(echoed.length, 2, 'internal notes of the brief repeated in the copy');
   ok(strayQuotes(items[3]).length === 0 && strayNumbers(items[3]).length === 0, 'post 3 is the clean item');

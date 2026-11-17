@@ -37,8 +37,8 @@
       "id": "Q1",
       "who": "ceo",
       "approved": "2 ديسمبر 2026",
-      "ar": "جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.",
-      "en": "Jiwar turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done."
+      "ar": "مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.",
+      "en": "Muanis turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done."
     },
     {
       "id": "Q2",
@@ -155,7 +155,7 @@
       "kind": "صورة منسوبة إلى غير مصدرها",
       "rule": "ق6",
       "lab": "1.2",
-      "text": "تصوير: تيم الدغمي، هيئة سواعد.",
+      "text": "تصوير: تيم الدغمي، هيئة عَضُد.",
       "evidence": "سجل الأصول: الصورة من وكالة «عدسة»، التُقطت خارج المملكة في مارس 2023، وترخيصها تحريري لا يشمل الحملات",
       "fix": "تُستبدل بصورة من مكتبة الهيئة، أو يُشترى ترخيص يغطي الحملة وتُنسب إلى الوكالة",
       "owner": "مسؤولة الحقوق"
@@ -190,8 +190,8 @@
     {
       "id": "م3",
       "kind": "اقتباس",
-      "from": "جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.",
-      "to": "جِوار يحوّل مساعدة الجار إلى خدمة منظمة ومتكاملة، من الطلب الواضح إلى المتطوع الموثَّق.",
+      "from": "مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.",
+      "to": "مُؤنِس يحوّل مساعدة الجار إلى خدمة منظمة ومتكاملة، من الطلب الواضح إلى المتطوع الموثَّق.",
       "source": "سجل الاقتباسات، Q1: النص المعتمد غير هذا"
     },
     {
@@ -204,7 +204,7 @@
     {
       "id": "م5",
       "kind": "وسم",
-      "from": "رسم توضيحي لخدمة «جِوار». صورة مولّدة بالذكاء الاصطناعي.",
+      "from": "رسم توضيحي لخدمة «مُؤنِس». صورة مولّدة بالذكاء الاصطناعي.",
       "to": "متطوع يوصل مشتريات أحد المستفيدين.",
       "source": "سجل الأصول: الصورة مولّدة، والوسم ناقص"
     }
@@ -422,10 +422,10 @@
       "id": "ح19",
       "name": "اسم الخدمة",
       "ar": [
-        "جِوار"
+        "مُؤنِس"
       ],
       "en": [
-        "Jiwar"
+        "Muanis"
       ],
       "source": "المسرد"
     },
@@ -433,10 +433,10 @@
       "id": "ح20",
       "name": "اسم الهيئة",
       "ar": [
-        "هيئة سواعد الوطنية للعمل التطوعي"
+        "هيئة عَضُد الوطنية للعمل التطوعي"
       ],
       "en": [
-        "Sawaed National Volunteering Authority"
+        "Adud National Volunteering Authority"
       ],
       "source": "المسرد"
     },
@@ -444,10 +444,10 @@
       "id": "ح21",
       "name": "اقتباس الرئيس التنفيذي",
       "ar": [
-        "جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب."
+        "مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب."
       ],
       "en": [
-        "Jiwar turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done."
+        "Muanis turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done."
       ],
       "source": "سجل الاقتباسات، Q1"
     },
@@ -549,8 +549,8 @@
       "item": "post3",
       "fact": "ح19",
       "kind": "اسم",
-      "from": "Volunteering with Jiwar",
-      "to": "Volunteering with Good Neighbour",
+      "from": "Volunteering with Muanis",
+      "to": "Volunteering with Good Companion",
       "note": "اسم الخدمة تُرجم والمسرد يمنع ترجمته"
     },
     {
@@ -566,8 +566,8 @@
   "en_voice": [
     {
       "item": "post1",
-      "from": "Jiwar launches",
-      "to": "The revolutionary Jiwar service launches",
+      "from": "Muanis launches",
+      "to": "The revolutionary Muanis service launches",
       "decision": "يُصحَّح",
       "why": "كلمة يمنعها دليل الأسلوب"
     },
@@ -630,12 +630,12 @@
     {
       "id": "د06",
       "type": "اقتباس",
-      "text": "قالت مديرة إدارة الاتصال جويرية الجريّد: «جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.»",
+      "text": "قالت مديرة إدارة الاتصال جويرية الجريّد: «مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.»",
       "cited": "سجل الاقتباسات",
       "primary": "سجل الاقتباسات المعتمدة، Q1",
       "verdict": "يُصحَّح",
       "finding": "النص صحيح، وصاحبه الرئيس التنفيذي لا مديرة الاتصال",
-      "fix": "قال الرئيس التنفيذي الدكتور مثنى الحلوة: «جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.»"
+      "fix": "قال الرئيس التنفيذي الدكتور مثنى الحلوة: «مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.»"
     },
     {
       "id": "د07",
@@ -659,7 +659,7 @@
     {
       "id": "د09",
       "type": "اقتباس",
-      "text": "قال أحد المستفيدين: «جِوار أعاد إليّ استقلالي.»",
+      "text": "قال أحد المستفيدين: «مُؤنِس أعاد إليّ استقلالي.»",
       "cited": "غير مذكور",
       "primary": "لا مصدر",
       "verdict": "يُحذف",
@@ -699,7 +699,7 @@
       "id": "ص2",
       "file": "I2.png",
       "from": "المصمم الداخلي",
-      "claim": "رسم توضيحي لخدمة «جِوار».",
+      "claim": "رسم توضيحي لخدمة «مُؤنِس».",
       "inspector": "بيانات اعتماد المحتوى: موجودة، وتوقيعها سليم. الموقِّع: أداة التوليد المعتمدة. نوع المصدر الرقمي: وسائط مولّدة بخوارزمية مدرَّبة.",
       "reverse": "لا نتائج مطابقة.",
       "supplier": "ولّدتُها بأداة التوليد المعتمدة في 12 نوفمبر 2026. لا تمثّل أشخاصًا حقيقيين.",
@@ -822,35 +822,35 @@
       "id": "CR-014",
       "type": "موافقة",
       "who": "براء المشوّح",
-      "scope": "مواد الحملة العامة لخدمة جِوار: صور واقتباس",
+      "scope": "مواد الحملة العامة لخدمة مُؤنِس: صور واقتباس",
       "date": "9 نوفمبر 2026"
     },
     {
       "id": "CR-015",
       "type": "موافقة",
       "who": "مستفيد من أبها، الاسم محفوظ في السجل",
-      "scope": "مواد الحملة العامة لخدمة جِوار: صور",
+      "scope": "مواد الحملة العامة لخدمة مُؤنِس: صور",
       "date": "9 نوفمبر 2026"
     },
     {
       "id": "CR-016",
       "type": "موافقة",
       "who": "متطوعة من الرياض، الاسم محفوظ في السجل",
-      "scope": "مواد الحملة العامة لخدمة جِوار: صور",
+      "scope": "مواد الحملة العامة لخدمة مُؤنِس: صور",
       "date": "2 نوفمبر 2026"
     },
     {
       "id": "CR-018",
       "type": "موافقة",
       "who": "متطوع من جدة، الاسم محفوظ في السجل",
-      "scope": "مواد الحملة العامة لخدمة جِوار: صور",
+      "scope": "مواد الحملة العامة لخدمة مُؤنِس: صور",
       "date": "15 أكتوبر 2026"
     },
     {
       "id": "CR-019",
       "type": "موافقة",
       "who": "مستفيد من جدة، الاسم محفوظ في السجل",
-      "scope": "مواد الحملة العامة لخدمة جِوار: صور",
+      "scope": "مواد الحملة العامة لخدمة مُؤنِس: صور",
       "date": "15 أكتوبر 2026"
     },
     {
@@ -976,38 +976,38 @@
     "تأخرت المرحلة التجريبية في أبها ستة أسابيع لنقص المنسقين. لا يُذكر ذلك في المواد."
   ],
   "release_ar": {
-    "title": "هيئة سواعد تطلق خدمة «جِوار» في 12 مدينة يوم 10 يناير 2027",
+    "title": "هيئة عَضُد تطلق خدمة «مُؤنِس» في 12 مدينة يوم 10 يناير 2027",
     "paras": [
-      "تطلق هيئة سواعد الوطنية للعمل التطوعي خدمة «جِوار» في 12 مدينة يوم 10 يناير 2027، بعد مرحلة تجريبية استمرت ستة أشهر في الرياض وجدة وأبها. تربط الخدمة المتطوعين بطلبات كبار السن ممن بلغوا 60 عامًا فأكثر والأشخاص ذوي الإعاقة في أحيائهم.",
+      "تطلق هيئة عَضُد الوطنية للعمل التطوعي خدمة «مُؤنِس» في 12 مدينة يوم 10 يناير 2027، بعد مرحلة تجريبية استمرت ستة أشهر في الرياض وجدة وأبها. تربط الخدمة المتطوعين بطلبات كبار السن ممن بلغوا 60 عامًا فأكثر والأشخاص ذوي الإعاقة في أحيائهم.",
       "استقبلت المرحلة التجريبية، من 1 يونيو إلى 30 نوفمبر 2026، 4,860 طلبًا أُنجز منها 4,212 طلبًا، أي 86.7%. وسجّل فيها 3,150 متطوعًا، نشط منهم 1,940، وخدموا 2,305 مستفيدين. وبلغ وسيط المدة من تقديم الطلب إلى إسناده إلى متطوع 26 ساعة.",
-      "وقال الرئيس التنفيذي للهيئة الدكتور مثنى الحلوة: «جِوار يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.»",
+      "وقال الرئيس التنفيذي للهيئة الدكتور مثنى الحلوة: «مُؤنِس يجعل مساعدة الجار خدمة منظمة: طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب.»",
       "وتقدّم الخدمة ثلاثة أنواع من المساعدة: قضاء الحاجات اليومية، والمرافقة إلى المواعيد، والصيانة المنزلية البسيطة. وأفاد 91% ممن أجابوا عن استطلاع المستفيدين، وعددهم 1,120، بأنهم راضون عن الخدمة.",
       "وقال المتطوع براء المشوّح من أبها: «أعطي ساعتين في الأسبوع، وأعرف قبل أن أخرج من بيتي من سأساعد وبماذا.»",
-      "وتستهدف الهيئة تسجيل 15,000 متطوع قبل نهاية 2027. التسجيل متاح لمن بلغ 18 عامًا فأكثر عبر تطبيق «جِوار» والموقع jiwar.sawaed.example."
+      "وتستهدف الهيئة تسجيل 15,000 متطوع قبل نهاية 2027. التسجيل متاح لمن بلغ 18 عامًا فأكثر عبر تطبيق «مُؤنِس» والموقع muanis.adud.example."
     ],
-    "caption": "رسم توضيحي لخدمة «جِوار». صورة مولّدة بالذكاء الاصطناعي."
+    "caption": "رسم توضيحي لخدمة «مُؤنِس». صورة مولّدة بالذكاء الاصطناعي."
   },
   "release_en": {
-    "title": "Sawaed launches Jiwar in 12 cities on 10 January 2027",
+    "title": "Adud launches Muanis in 12 cities on 10 January 2027",
     "paras": [
-      "The Sawaed National Volunteering Authority will launch Jiwar in 12 cities on 10 January 2027, after a six-month pilot in Riyadh, Jeddah and Abha. The service matches volunteers with requests from people aged 60 or more and people with disabilities in their own neighbourhoods.",
+      "The Adud National Volunteering Authority will launch Muanis in 12 cities on 10 January 2027, after a six-month pilot in Riyadh, Jeddah and Abha. The service matches volunteers with requests from people aged 60 or more and people with disabilities in their own neighbourhoods.",
       "Between 1 June and 30 November 2026 the pilot received 4,860 requests, of which 4,212 were completed (86.7%). It registered 3,150 volunteers, 1,940 of them active, who served 2,305 beneficiaries. The median time from a request to its assignment to a volunteer was 26 hours.",
-      "Dr. Muthanna Al-Hulwah, the Authority's Chief Executive, said: \"Jiwar turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done.\"",
+      "Dr. Muthanna Al-Hulwah, the Authority's Chief Executive, said: \"Muanis turns helping a neighbour into an organised service: a clear request, a verified volunteer, and follow-up until the request is done.\"",
       "The service offers three kinds of help: daily errands, accompaniment to appointments and simple home maintenance. Of the 1,120 beneficiaries who answered the survey, 91% said they were satisfied with the service.",
       "Baraa Al-Mushawwah, a volunteer from Abha, said: \"I give two hours a week, and before I leave home I know whom I will help and with what.\"",
-      "The Authority aims to register 15,000 volunteers by the end of 2027. Registration is open to anyone aged 18 or more through the Jiwar app and jiwar.sawaed.example."
+      "The Authority aims to register 15,000 volunteers by the end of 2027. Registration is open to anyone aged 18 or more through the Muanis app and muanis.adud.example."
     ],
-    "caption": "An illustration of the Jiwar service. AI-generated image."
+    "caption": "An illustration of the Muanis service. AI-generated image."
   },
   "posts_ar": [
-    "«جِوار» ينطلق في 12 مدينة يوم 10 يناير 2027. طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب. سجّل الآن: jiwar.sawaed.example",
+    "«مُؤنِس» ينطلق في 12 مدينة يوم 10 يناير 2027. طلب واضح، ومتطوع موثَّق، ومتابعة حتى يُنجز الطلب. سجّل الآن: muanis.adud.example",
     "في ستة أشهر: 4,860 طلبًا أُنجز منها 4,212. 3,150 متطوعًا سجّلوا، و2,305 مستفيدين خُدموا. شكرًا لكم في الرياض وجدة وأبها.",
-    "«أعطي ساعتين في الأسبوع، وأعرف قبل أن أخرج من بيتي من سأساعد وبماذا.» براء المشوّح، متطوع من أبها. التطوع في «جِوار» لمن بلغ 18 عامًا فأكثر."
+    "«أعطي ساعتين في الأسبوع، وأعرف قبل أن أخرج من بيتي من سأساعد وبماذا.» براء المشوّح، متطوع من أبها. التطوع في «مُؤنِس» لمن بلغ 18 عامًا فأكثر."
   ],
   "posts_en": [
-    "Jiwar launches in 12 cities on 10 January 2027. A clear request, a verified volunteer, and follow-up until the request is done. Sign up now: jiwar.sawaed.example",
+    "Muanis launches in 12 cities on 10 January 2027. A clear request, a verified volunteer, and follow-up until the request is done. Sign up now: muanis.adud.example",
     "In six months: 4,860 requests, 4,212 of them completed. 3,150 volunteers signed up and 2,305 beneficiaries were served. Thank you, Riyadh, Jeddah and Abha.",
-    "\"I give two hours a week, and before I leave home I know whom I will help and with what.\" Baraa Al-Mushawwah, a volunteer from Abha. Volunteering with Jiwar is open to anyone aged 18 or more."
+    "\"I give two hours a week, and before I leave home I know whom I will help and with what.\" Baraa Al-Mushawwah, a volunteer from Abha. Volunteering with Muanis is open to anyone aged 18 or more."
   ],
   "workflow_card": [
     {
