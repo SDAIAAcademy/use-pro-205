@@ -1,0 +1,3 @@
+/* Course additions to the engine's theme. A course code in Arabic text (USE-FLU-207) is never
+   broken after its hyphens. */
+.u205-code { white-space: nowrap; }
